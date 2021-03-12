@@ -1,0 +1,23 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.name-highlight{
+    color: rgb(221, 112, 10);
+}
+
+div.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+div.half-width img{
+    width: 300px;
+}
+button{
+    background-color: tomato;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font: 800;
+    font-size: 20px;
+}
