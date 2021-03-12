@@ -1,4 +1,7 @@
+
 body{
+    margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 .name-highlight{
@@ -6,18 +9,29 @@ body{
 }
 
 div.half-width{
+    margin-top: 10px;
     width: 40%;
     float: left;
-    margin-left: 5%;
+    margin-left: 10%;
 }
 div.half-width img{
     width: 300px;
+    
 }
 button{
+    
     background-color: tomato;
     border: none;
     padding: 10px 20px;
     color: white;
     font: 800;
     font-size: 20px;
+}
+.top-banner{
+    border: solid 1px coral;
+    background-image: url('image/top-banner.png');background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    
 }
